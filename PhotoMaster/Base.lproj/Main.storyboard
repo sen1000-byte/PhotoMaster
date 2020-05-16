@@ -37,10 +37,6 @@
                                     <action selector="onTappedAlubumButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFC-lo-ttc"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DgH-tk-BdK">
-                                <rect key="frame" x="-78" y="151" width="570" height="420"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eah-dr-y0K">
                                 <rect key="frame" x="57" y="601" width="90" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,6 +73,10 @@
                                     <action selector="onTappedUploadButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgn-8R-0oI"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DgH-tk-BdK">
+                                <rect key="frame" x="43" y="146" width="329" height="431"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.94593626259999997" green="0.889703095" blue="0.77553164959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.94593626259999997" green="0.889703095" blue="0.77553164959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
